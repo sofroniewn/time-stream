@@ -62,5 +62,15 @@ Create a new writable stream that appends timeseries data to the file specified 
 Create a new readable stream that reads data from the file specified by filename. The encoder is the same as the above writeStream encoder.
 
 
+## Benchmark
+
+There is a benchmark available using
+``` npm run benchmark ```
+
+On my computer it gives the following results
+```
+549753 data / second
+```
+
 ## License
 MIT
